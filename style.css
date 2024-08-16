@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+}
+
+:root {
+    --timberwolf: rgb(0, 0, 0);
+--sage: rgb(2, 244, 168);
+--fern-green: rgb(254, 254, 254);
+--hunter-green: rgb(0, 0, 0);
+--brunswick-green: rgb(17, 215, 116);
+
+}
+
+body{
+    background-color: var(--hunter-green);
+    color: var(--timberwolf);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.caixa-principal{
+    background-color: var(--fern-green);
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+    padding: 20px;
+}
+
+button{
+    background-color: var(--timberwolf);
+    color: var(--fern-green);
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+    transition: 0.3s;
+    margin: 10px auto;
+}
+
+button:hover{
+    background-color: var(--brunswick-green);
+}
+
+.caixa-principal {
+    font-family: 'Arial', sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #fbfbfb;
+    border-radius: 8px;
+    background: #0dff00;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
